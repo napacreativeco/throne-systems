@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px) {
+    .cart--container {
+
+        p {
+            font-size: 20px;
+        }
+
+        td.product-thumbnail {
+            display: none;
+        }
+
+        .shop_table .cart_item {
+            grid-template-columns: auto 4fr 1fr 1fr;
+            grid-gap: 10px;
+            font-size: 26px;
+            margin: 40px 0;
+        }
+
+        .shop_table input[type="number"] {
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .coupon {
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+        }
+        
+    }
+
+    .cart_totals {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .wc-proceed-to-checkout a {
+        padding-bottom: 14px !important;
+    }
+}

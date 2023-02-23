@@ -1,0 +1,85 @@
+:root {
+    --black: #1C1C1C;
+    --white: #CCCCCC;
+
+    --jet-brains: 'Jet Brains';
+    --throne: 'Throne Grotesk';
+
+    --border: 2px solid var(--white);
+}
+
+@font-face {
+    font-family: 'Throne Grotesk';
+    src: url('/wp-content/themes/throne-systems/fonts/ThroneGroteskMedium.woff2') format('woff2'),
+        url('/wp-content/themes/throne-systems/fonts/ThroneGroteskMedium.woff') format('woff'),
+        url('/wp-content/themes/throne-systems/fonts/ThroneGroteskMedium.svg#ThroneGroteskMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jet Brains';
+    src: url('/wp-content/themes/throne-systems/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    cursor: url("data:image/svg+xml,%3Csvg width='93' height='58' viewBox='0 0 93 58' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M92.6945 28.6111H7.88892' stroke='%23D3D3D3' stroke-width='7.88889' stroke-linejoin='round'/%3E%3Cpath d='M29.5832 2.97217L3.94434 28.6111L29.5832 54.2499' stroke='%23D3D3D3' stroke-width='7.88889' stroke-linejoin='round'/%3E%3C/svg%3E%0A") 32 32, pointer;
+}
+
+body {
+    font-family: var(--jet-brains);
+    background: var(--black);
+    
+    font-size: 28px;
+    color: var(--white);
+    line-height: 1;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--throne);
+    letter-spacing: 1.5px;
+}
+
+
+.jetbrains {
+    font-family: var(--jet-brains);
+}
+.throne-grotesk {
+    font-family: var(--throne);
+}
+
+.site-container {
+    width: 100%;
+    // max-width: 1512px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+@import './reset.scss';
+@import './navbar.scss';
+@import './product.scss';
+@import './product-slideshow.scss';
+@import './buttons.scss';
+@import './big-text.scss';
+
+@import './pages/systems.scss';
+@import './pages/product-archive.scss';
+@import './pages/blog-archive.scss';
+@import './pages/cart.scss';
+@import './pages/checkout.scss';
+@import './pages/blog-post.scss';
+
+@import './mobile/mobile.scss';
+@import './mobile/navbar--mobile.scss';
+@import './mobile/systems--mobile.scss';
+@import './mobile/big-text--mobile.scss';
+@import './mobile/product-archive--mobile.scss';
+@import './mobile/product--mobile.scss';
+@import './mobile/blog-archive--mobile.scss';
+@import './mobile/blog-post--mobile.scss';
+@import './mobile/cart--mobile.scss';

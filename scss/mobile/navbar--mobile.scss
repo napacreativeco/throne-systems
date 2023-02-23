@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px) {
+
+    header {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px 10px;
+        margin: 0 auto 20px auto;
+    }
+    
+    header .site-title {
+        font-size: 23vw;
+    }
+
+    header .header--row {
+        flex-direction: column;
+    }
+
+    header .site-links ul {
+        grid-gap: 6px;
+    }
+
+    header .site-links a {
+        padding: 20px 30px 14px 30px;
+    }
+
+    header .site-links ul {
+        justify-content: flex-start;          
+    }           
+
+}
+
+
+@media screen and (max-width: 400px) {
+    header .site-links ul {
+        justify-content: space-around;          
+    }            
+}

@@ -1,0 +1,38 @@
+/* Add To Cart Button */
+.add-to-cart--button {
+    background: var(--black);
+    color: var(--white);
+    display: block;
+    position: relative;
+
+    font-family: var(--throne);
+    font-size: 44px;
+    text-align: center;
+    text-transform: uppercase;
+
+    border-radius: 50px;
+    border: 2px solid var(--white);
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.add-to-cart--button::before {
+    display: none;
+    content: '';
+    background: var(--white);
+    border-radius: 50px;
+    position: absolute;
+    z-index: -1;
+    top: -30%;
+    left: 3%;
+    right: -3%;
+    bottom: 30%;
+    width: 100%;
+}
+
+.add-to-cart--button:hover::before {
+    display: block;
+}
+

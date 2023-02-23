@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+    .blog--container {
+
+        .post {
+            grid-template-columns: 1fr;
+        }
+        
+    }
+}

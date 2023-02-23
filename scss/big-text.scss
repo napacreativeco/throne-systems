@@ -1,0 +1,92 @@
+.big-text {
+
+    margin-top: 40px;
+
+    .item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-end;
+        grid-gap: 20px;
+        width: 100%;
+        border-bottom: 2px solid var(--white);
+        padding: 10px 0;
+    }
+
+    .item--wide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .item p,
+    .item--wide p {
+        display: block;
+        font-size: 12vw;
+        line-height: 1;
+        margin-bottom: -30px;
+    }
+
+    .item img {
+        width: 100%;
+    }
+
+}
+
+/* Big Text Buttons */
+.big-text a {
+    background: var(--black);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+
+    font-size: 4.5vw;
+    text-align: center;
+    text-transform: uppercase;
+
+    border-radius: 100px;
+    border: 2px solid var(--white);
+
+    width: 100%;
+    height: 100%;
+    max-width: 40vw;
+    padding: 40px auto;
+}
+
+.big-text a span {
+    margin-bottom: -10px;
+}
+
+.big-text a img {
+    width: 100%;
+    max-width: 80px;
+}
+
+.big-text a::before {
+    display: none;
+    content: '';
+    background: var(--white);
+    border-radius: 100px;
+    position: absolute;
+    z-index: -1;
+    top: -10%;
+    left: 3%;
+    right: -3%;
+    bottom: 10%;
+    width: 100%;
+}
+
+.big-text a:hover::before {
+    display: block;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .item p,
+    .item--wide p {
+        line-height: 1.2;
+        margin-bottom: -20px !important;
+    }
+}

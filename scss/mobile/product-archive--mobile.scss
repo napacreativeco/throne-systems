@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+
+    .product--archive {
+        .products {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 0px;
+        }
+
+        .product {
+            margin-bottom: 40px;
+        }
+
+        img.free-sticker {
+            max-width: 100px !important;
+        }
+    }
+
+}
