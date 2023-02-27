@@ -2,6 +2,7 @@
 // Blog Archive
 
 get_header(); ?>
+
 <h1 style="display: none;"><?php the_title(); ?></h1>
 
 <div class="blog--container">

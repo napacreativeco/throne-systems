@@ -44,6 +44,7 @@ function throne_admin_styles() {
     body {
       font-size: 14px;
     }
+
     body, td, textarea, input, select {
       
     } 
@@ -59,6 +60,16 @@ function throne_admin_styles() {
     label, th {
       color: #ffffff;
     }
+
+	#poststuff label {
+		color: #000000;
+	}
+
+	a {
+		text-decoration: underline !important;
+		cursor: pointer !important;
+	}
+
   </style>';
 }
 

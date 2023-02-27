@@ -1,9 +1,11 @@
 <?php get_header(); ?>
 
 <div class="post--container">
+
     <h1 class="post-title">
         <?php the_title(); ?>
     </h1>
+    
     <div class="post-excerpt">
         <?php the_excerpt(); ?>
     </div>

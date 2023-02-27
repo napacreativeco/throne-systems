@@ -1,4 +1,8 @@
 .systems--container {
+
+    .reverb-image {
+        width: 100%;
+    }
     
     .systems--module-title {
         display: none;
@@ -10,6 +14,9 @@
     }
 
     details {
+
+        margin-top: 40px; 
+
         .system-info {
             padding: 0 0 40px 0;
         }
@@ -20,6 +27,18 @@
 
         .description {
             padding-bottom: 40px;
+        }
+
+        .image {
+            aspect-ratio: 1/1;
+            overflow: hidden;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        img {
+            width: 100%;
         }
     }
 
