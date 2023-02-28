@@ -35,5 +35,9 @@
 
 </div> <!-- /site-container -->
 
+<script>
+    document.getElementById('video').play();
+</script>
+
 </body>
 </html>

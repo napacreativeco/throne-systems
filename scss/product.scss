@@ -1,7 +1,11 @@
 .single-product {
+
     .product-title {
         text-transform: uppercase;
+        font-family: var(--throne);
+        font-size: 7vw;
     }
+    
     p.product-description {
         text-transform: none;
         line-height: 1.2;

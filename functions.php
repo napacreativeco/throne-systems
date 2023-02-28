@@ -13,7 +13,6 @@ function throne_theme_setup() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );
     wp_enqueue_style( 'styles', get_template_directory_uri() . '/compiled/app.css' );
 	wp_enqueue_script( 'script', get_template_directory_uri() . '/js/throne.js', array ( 'jquery' ), 1.1, true);
-
 	
     add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script' ) );
@@ -44,6 +43,7 @@ function throne_admin_styles() {
     body {
       font-size: 14px;
     }
+
     body, td, textarea, input, select {
       
     } 
@@ -59,6 +59,16 @@ function throne_admin_styles() {
     label, th {
       color: #ffffff;
     }
+
+	#poststuff label {
+		color: #000000;
+	}
+
+	a {
+		text-decoration: underline !important;
+		cursor: pointer !important;
+	}
+
   </style>';
 }
 

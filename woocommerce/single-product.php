@@ -23,8 +23,8 @@ get_header('shop'); ?>
         -->
         <div class="product-details">
 
-            <div class="product-title jetbrains">
-                <h1 class="jetbrains"><?php the_title(); ?></h1>
+            <div class="product-title">
+                <h1><?php the_title(); ?></h1>
             </div>
 
             <div class="product-excerpt jetbrains">
