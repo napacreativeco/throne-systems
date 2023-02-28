@@ -11,6 +11,8 @@ get_header();
 
 <div class="systems--container">
 
+    <img class="reverb-image" src="https://thrxne.com/wp-content/uploads/reverb-tilted-dark-crop.jpg" alt="Reverb" />
+
     <div class="systems--module-title">
         <a href="/shop" title="Products">
             <h3>Products</h3>
